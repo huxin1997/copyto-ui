@@ -1,24 +1,22 @@
 <script>
+    import "../util/i18n";
     import "../app.css";
-    import '../util/i18n'
+    import { locale, waitLocale } from 'svelte-i18n'
     import Header from "../components/Header.svelte";
-    import { t } from "@i18n-pro/svelte";
 
     const locales = {
         en: "English",
         zh: "简体中文",
-        cht: "繁體中文",
         jp: "日本語",
+        kr: "한국어",
+        ru: "Русский",
     };
+
 
 </script>
 
 <div>
-    <Header></Header>
-    <div>
-        {$t("hello world")}
-        {$t('ok')}
-    </div>
+    <Header {locales}></Header>
 
     <main>
         <div class="container max-w-2xl mx-auto mt-10 min-h-screen">

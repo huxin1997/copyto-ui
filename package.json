@@ -21,6 +21,7 @@
     "copy-to-clipboard": "^3.3.3",
     "i18n-pro": "^2.1.0",
     "material-icons": "^1.13.12",
-    "qrcode-generator": "^1.4.4"
+    "qrcode-generator": "^1.4.4",
+    "svelte-i18n": "^4.0.0"
   }
 }

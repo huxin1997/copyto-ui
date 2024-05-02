@@ -1,5 +1,11 @@
 {
-     "i18n-ally.editor.preferEditor": true,
-    "i18n-ally.localesPaths": ["src/localesPaths"],
-    "i18n-ally.displayLanguage": "zh-CN"
+    "i18n-ally.editor.preferEditor": true,
+    "i18n-ally.localesPaths": [
+        "src/locale"
+    ],
+    "i18n-ally.displayLanguage": "zh-CN",
+    "i18n-ally.namespace": true,
+    "i18n-ally.pathMatcher": "{locale}.json",
+    "i18n-ally.keystyle": "nested",
+    "i18n-ally.sourceLanguage": "en" //locale对应国际化语言
 }

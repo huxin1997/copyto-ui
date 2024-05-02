@@ -1,0 +1,5 @@
+{
+     "i18n-ally.editor.preferEditor": true,
+    "i18n-ally.localesPaths": ["src/localesPaths"],
+    "i18n-ally.displayLanguage": "zh-CN"
+}

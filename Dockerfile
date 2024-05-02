@@ -7,4 +7,4 @@ RUN npm install
 # 构建项目
 RUN npm run build
 
-CMD [ "npm","run","preview","--port","1234"]
+CMD [ "npm","run","preview"]

@@ -10,6 +10,7 @@
     "@sveltejs/kit": "^1",
     "autoprefixer": "^10",
     "daisyui": "^3",
+
     "postcss": "^8",
     "svelte": "^4",
     "svelte-routing": "^2.12.0",
